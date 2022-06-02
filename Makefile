@@ -12,6 +12,7 @@ default: test
 
 all: test
 
+# USE LATEST IVERILOG FROM GIT
 test: $(TESTFILES)
 	mkdir -p $(TESTBUILDDIR)
 	for TESTFILE in $^ ; do \
