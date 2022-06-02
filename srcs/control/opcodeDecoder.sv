@@ -30,7 +30,7 @@ module OpcodeDecoder (
              * Jump      : 1 bit : (Internal) Enable jump for branch decoder
              * ALUOp     : 2 bits: (Internal) Select mode for alu decoder
              */
-            7'b0000011: controls = 14'b1_000_x_0_0_0_01_0_0_00; // 3   - I-type
+            7'b0000011: controls = 14'b1_000_x_0_1_0_01_0_0_00; // 3   - I-type
             7'b0010011: controls = 14'b1_000_x_0_1_0_00_0_0_10; // 19  - I-type ALU
             7'b0010111: controls = 14'b1_100_x_1_1_0_00_0_0_00; // 23  - U-type PC
             7'b0100011: controls = 14'b0_001_x_0_1_1_xx_0_0_00; // 35  - S-type
