@@ -99,10 +99,11 @@ module DataBlock (
         .rd(data_out)
     );
 
-    Mux3 dataOutMux(
+    Mux4 dataOutMux(
         .d0(alu_result),
         .d1(data_out),
         .d2(pc_p_4),
+        .d3(imm_ext),
         .s(ResultSrc), 
         .y(reg_in)
     );
