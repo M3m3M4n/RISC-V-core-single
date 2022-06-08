@@ -90,13 +90,13 @@ module DataBlock (
     );
 
     DataMemory dataMemory(
-        .clk(clk), 
-        .we(MemWrite),
-        .addr(alu_result), 
-        .wd(reg_out_2),
-        .mask_type(mask_type),
-        .ext_type(ext_type),
-        .rd(data_out)
+        .i_clk(clk), 
+        .i_we(MemWrite),
+        .i_addr(alu_result), 
+        .i_wd(reg_out_2),
+        .i_mask_type(mask_type),
+        .i_ext_type(ext_type),
+        .o_rd(data_out)
     );
 
     Mux4 dataOutMux(

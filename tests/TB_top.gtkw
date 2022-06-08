@@ -1,0 +1,65 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Wed Jun  8 03:31:52 2022
+[*]
+[dumpfile] "/home/hoang/Desktop/rv/RISC-V-core-single/build_test/TB_top.vcd"
+[dumpfile_mtime] "Wed Jun  8 03:23:02 2022"
+[dumpfile_size] 378669
+[savefile] "/home/hoang/Desktop/rv/RISC-V-core-single/build_test/TB_top.gtkw"
+[timestart] 0
+[size] 1920 1000
+[pos] -1 -1
+*-18.000000 724000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TB_Top.
+[treeopen] TB_Top.UUT.
+[treeopen] TB_Top.UUT.datapath.
+[treeopen] TB_Top.UUT.instrBlock.
+[sst_width] 211
+[signals_width] 232
+[sst_expanded] 1
+[sst_vpaned_height] 283
+@28
+TB_Top.UUT.datapath.clk
+@22
+TB_Top.UUT.instrBlock.pc[31:0]
+TB_Top.UUT.instrBlock.instrMemory.rd[31:0]
+@200
+-REGFILE
+@22
+TB_Top.registerFile.a1[4:0]
+TB_Top.registerFile.a2[4:0]
+TB_Top.registerFile.a3[4:0]
+TB_Top.registerFile.rd1[31:0]
+TB_Top.registerFile.rd2[31:0]
+@23
+TB_Top.registerFile.wd3[31:0]
+@28
+TB_Top.registerFile.we3
+@200
+-ALU
+@22
+TB_Top.UUT.datapath.alu.a[31:0]
+TB_Top.UUT.datapath.alu.b[31:0]
+TB_Top.UUT.datapath.alu.result[31:0]
+@200
+-ALU FLAGS
+@28
+TB_Top.UUT.datapath.alu.isSub
+TB_Top.UUT.datapath.alu.carry
+TB_Top.UUT.datapath.alu.neg
+TB_Top.UUT.datapath.alu.zero
+TB_Top.UUT.datapath.alu.overflow
+@200
+-DATAMEM
+@28
+TB_Top.UUT.datapath.dataMemory.i_ext_type
+TB_Top.UUT.datapath.dataMemory.i_mask_type[1:0]
+@22
+TB_Top.UUT.datapath.dataMemory.i_addr[31:0]
+@28
+TB_Top.UUT.datapath.dataMemory.i_we
+@22
+TB_Top.UUT.datapath.dataMemory.i_wd[31:0]
+TB_Top.UUT.datapath.dataMemory.o_rd[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

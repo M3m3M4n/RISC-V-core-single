@@ -19,8 +19,16 @@ module RegisterFile (
     // write third port on rising edge of clock (A3/WD3/WE3)
     // register 0 hardwired to 0
 
-    always_ff @(posedge clk)
-        if (we3) regs[a3] <= wd3;	
+    always_ff @(posedge clk) begin
+        if (we3) begin
+            if (a3 != 0)
+                regs[a3] <= wd3;
+            else begin
+                $display("[REG FILE] ATTEMPTED WRITE %H TO R0", wd3);
+                regs[a3] <= 0;
+            end
+        end
+    end
 
     assign rd1 = (a1 != 0) ? regs[a1] : 0;
     assign rd2 = (a2 != 0) ? regs[a2] : 0;

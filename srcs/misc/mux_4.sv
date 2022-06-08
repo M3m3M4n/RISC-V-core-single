@@ -1,23 +1,23 @@
 module Mux4 #(
     parameter WIDTH = 32
 ) (
-    input  logic [WIDTH - 1 : 0] i_d0, i_d1, i_d2, i_d3, 
-    input  logic [1 : 0] i_s, 
-    output logic [WIDTH - 1 : 0] o_y
+    input  logic [WIDTH - 1 : 0] d0, d1, d2, d3, 
+    input  logic [1 : 0] s, 
+    output logic [WIDTH - 1 : 0] y
 );
 
     always_comb begin : sel
-        case (i_s)
+        case (s)
             2'b00:
-                o_y = i_d0;
+                y = d0;
             2'b01:
-                o_y = i_d1;
+                y = d1;
             2'b10:
-                o_y = i_d2;
+                y = d2;
             2'b11: 
-                o_y = i_d3;
+                y = d3;
             default: 
-                o_y = 'hx;
+                y = 'hx;
         endcase
     end
 
