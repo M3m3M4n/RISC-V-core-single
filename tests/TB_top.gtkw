@@ -2,10 +2,10 @@
 [*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
 [*] Wed Jun  8 03:31:52 2022
 [*]
-[dumpfile] "/home/hoang/Desktop/rv/RISC-V-core-single/build_test/TB_top.vcd"
+[dumpfile] "TB_top.vcd"
 [dumpfile_mtime] "Wed Jun  8 03:23:02 2022"
 [dumpfile_size] 378669
-[savefile] "/home/hoang/Desktop/rv/RISC-V-core-single/build_test/TB_top.gtkw"
+[savefile] "TB_top.gtkw"
 [timestart] 0
 [size] 1920 1000
 [pos] -1 -1
