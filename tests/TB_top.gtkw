@@ -1,15 +1,17 @@
 [*]
 [*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
-[*] Wed Jun  8 03:31:52 2022
+[*] Wed Jun  8 13:44:50 2022
 [*]
 [dumpfile] "TB_top.vcd"
-[dumpfile_mtime] "Wed Jun  8 03:23:02 2022"
+[dumpfile_mtime] "Wed Jun  8 03:37:48 2022"
 [dumpfile_size] 378669
 [savefile] "TB_top.gtkw"
-[timestart] 0
+[timestart] 64800
 [size] 1920 1000
 [pos] -1 -1
-*-18.000000 724000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-17.000000 408000 716000 408000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[markername] ADIV END
+[markername] BDIV START
 [treeopen] TB_Top.
 [treeopen] TB_Top.UUT.
 [treeopen] TB_Top.UUT.datapath.
